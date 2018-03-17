@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jeong_woochang.kingofstudy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".MathActivity" />
+        <activity android:name=".ScienceActivity" />
+        <activity android:name=".KoreanActivity" />
+        <activity android:name=".EnglishActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".InquiryActivity" />
+        <activity android:name=".Dic_korActivity" />
+        <activity android:name=".Offi_korActivity" />
+        <activity android:name=".Dic_engActivity" />
+        <activity android:name=".Offi_engActivity" />
+        <activity android:name=".M1_korActivity" />
+        <activity android:name=".M2_korActivity" />
+        <activity android:name=".M3_korActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".MathFormulaActivity" />
+        <activity android:name=".M1_engActivity" />
+        <activity android:name=".M2_engActivity" />
+        <activity android:name=".M3_engActivity" />
+        <activity android:name=".MathCalcurator1Activity" />
+        <activity android:name=".PediaActivity" />
+        <activity android:name=".WriteActivity" />
+        <activity android:name=".MathCalcurator2Activity" />
+        <activity android:name=".MathCalcurator3Activity" />
+        <activity android:name=".Science1Activity" />
+        <activity android:name=".Science2Activity" />
+        <activity android:name=".Science3Activity" />
+        <activity android:name=".Science4Activity" />
+        <activity android:name=".WIKI"></activity>
+    </application>
+
+</manifest>

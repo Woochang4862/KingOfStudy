@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subject">
+        <item>수학</item>
+        <item>과학</item>
+        <item>국어</item>
+        <item>영어</item>
+    </string-array>
+    <string-array name="grade">
+        <item>1학년</item>
+        <item>2학년</item>
+        <item>3학년</item>
+    </string-array>
+    <string-array name="search">
+        <item>제목</item>
+        <item>내용</item>
+    </string-array>
+</resources>
